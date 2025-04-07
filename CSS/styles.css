@@ -1,0 +1,120 @@
+body {
+  background-image: url("../Images/tokyo.jpg");
+}
+
+html {
+  font-family: 'Kanit', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.btn {
+  background-color: rgb(86, 165, 255);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(14, 117, 236);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Navigation Styles */
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(86, 165, 255);
+  cursor: default;
+}
+
+nav .btn {
+  border-radius: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  max-width: 1000px;
+}
+
+.nav_links a{
+  text-decoration: none;
+  color: rgb(86, 165, 255);
+}
+
+.nav_links a:hover {
+  color: rgb(14, 117, 236);
+  text-decoration: none;
+}
+
+.search_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#search {
+  height: 35px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* Index Styles */
+#home_page {
+  margin: auto;
+  width: 75%;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+#home_pg_title {
+  font-size: clamp(40px, 3vw, 3vw);
+  text-align: center;
+  margin-top: 200px;
+  width: 25%;
+  min-width: 200px;
+}
+
+#website_desc {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#website_desc p {
+  font-size: clamp(20px, 1vw, 1vw);
+  text-align: center;
+  margin-top: 50px;
+
+  min-width: 200px;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+}
+
+/* About Styles */
+
+/* Contact Styles */
